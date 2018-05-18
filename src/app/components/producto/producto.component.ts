@@ -23,7 +23,7 @@ export class ProductoComponent {
      .subscribe ( res=> {
        this.cod = parametros['id'];
        this.producto = res.json();
-       console.log ( res.json() );
+       //console.log ( res.json() );
        // se extrae la info del firebase
      });
 
